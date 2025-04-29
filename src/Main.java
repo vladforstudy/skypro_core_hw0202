@@ -57,11 +57,10 @@ public class Main {
         studentService.print(slytherins);
         studentService.print(hufflepuffs);
         studentService.print(ravenclaws);
-        System.out.println();
+        System.out.println(studentService.compareForTheBest(gryffindors[0], gryffindors[2]));
+        System.out.println(studentService.compareForTheBest(slytherins[1], slytherins[2]));
+        System.out.println(studentService.compareForTheBest(hufflepuffs[0], hufflepuffs[1]));
+        System.out.println(studentService.compareForTheBest(ravenclaws[0], ravenclaws[2]));
         System.out.println(studentService.compareForTheBest(slytherins[0], hufflepuffs[2]));
-
     }
-
-
-
 }
